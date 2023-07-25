@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cheat Sheet</title>
+    </head>
+    <body>
+        <header>
+            <h1>Padding</h1>
+            <h1>Margin</h1>
+        </header>
+        <main>
+            <div>
+                <p>
+                    <strong>Padding:</strong> is the space between the content of a box and the its border.   
+                </p>
+                <img src="./image 1.png">
+                <p>
+                    <strong>Margin:</strong> is the space outside of the box, surrounding its border. It specifies the size of this space.
+                </p>
+            </div>
+            <div>
+                <h2>
+                    CSS Padding and Margin definition values
+                </h2>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210317151556/marginpadding.png">
+            </div>
+            <div>
+                <p>
+                .example1{
+                    padding:<strong>80px;</strong> 
+                } 
+                </p>
+                <img src="./1VAL.png">
+                <p>
+                    One value is used when the same padding is applied to all four sides of the content.
+                </p>
+            </div> 
+            <div>
+                <p>
+                    .example2{
+                        padding:<strong> 15px 10px ;</strong>  
+                    }
+                </p>
+                <img src="https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Update%20css%20margin%20vs%20padding-4.png?width=400&name=Update%20css%20margin%20vs%20padding-4.png">
+                <p>
+                    Two values are used to define an equal value for both top and bottom padding (15px)- known as vertical padding- and another value that's the same for both right and left padding (10px)- known as horizontal padding.
+                </p>
+            </div>
+            <div>
+                <p>
+                    .example3{
+                        padding:<strong>80px 120px 100px;</strong>
+                    }
+                </p> 
+                <img src="./3VAL.png">
+                <p>
+                    We use 3 values when <strong>left and right padding</strong>-horizontal padding- <strong>are equal</strong> and you want to define the padding in all 4 sides.
+                </p>
+            </div>
+            <div>
+                <p>
+                    .example4{
+                        padding:<strong>80px 100px 120px 140px;</strong>
+                    }
+                </p> 
+                <img src="./4VAL.png">
+                <p>
+                    We use 4 values when we want to define a different padding for all 4 sides.
+                </p>
+            </div>
+            <div>
+                <h2>
+                    Purpose & Common use
+                </h2>
+                <p>
+                    Padding ensures that the content of the object doesn't touch the edges that covers it (i.e. its borders)
+                </p>
+                <img src="https://aheadworks.com/media/Blog/shopify/Translation_6_.png">
+                <p>
+                    Margin ensures that the object is not being interfered or affected by the other objects that surround it.
+                </p>
+            </div>
+            <div>
+                <h2>
+                    Interaction next to other elements: Collapsation
+                </h2>
+                <h3>
+                    Element's Padding and horizontal Margins (left and right margins) DO NOT COLLAPSE, but VERTICAL MARGINS-top and bottom margins- DO COLLAPSE.
+                </h3>
+                <img src="Collapsation.png">
+                <p>
+                    It is an phenomenon which occurs when the top or bottom margin of one element comes into contact with the top or bottom margin of another element. 
+                    Only vertical margins collapse, horizontal  margins do not. 
+                    In collapsing of two margins, the distance between the two boxes will use whichever margin value is greater. 
+                    Margin collapsing also happens when an element is nested inside another element. Irrespective of contact of elements, even an element inside of another element will margin collapse with its parent if the two margins come into contact. 
+                    Prevention of margin collapsing can be done by applying padding or a border to the either of the element.
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
