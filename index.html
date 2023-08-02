@@ -4,113 +4,182 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cheat Sheet</title>
+        <link rel="stylesheet" type="text/css" href='style.css'>
     </head>
     <body>
         <header>
-            <h1>Padding</h1>
-            <h1>Margin</h1>
+            <div>
+                <h1>Padding & Margin</h1>
+                <h1>CSS Properties</h1>
+            </div>
+            <div>
+                <ul>
+                    <li>Definition</li>
+                    <li>Types</li>
+                    <li>Values</li>
+                    <li>Functionality</li>
+                    <li>Collapsation</li>
+                    <li>Dimensions</li>
+                </ul>
+            </div>
         </header>
         <main>
-            <div>
-                <p>
-                    <strong>Padding:</strong> is the space between the content of a box and the its border.   
-                </p>
-                <img src="./image1.png">
-                <p>
-                    <strong>Margin:</strong> is the space outside of the box, surrounding its border. It specifies the size of this space.
-                </p>
+            <div id="definition">
+                <div>
+                    <p>
+                        <strong>Padding:</strong>   
+                    </p>
+                    <p>
+                        is the space between the content of a box and the border. 
+                    </p>
+                </div>
+                <img src="./Image1.png">
+                <div>
+                    <p>
+                        <strong>Margin:</strong> 
+                    </p>
+                    <p>
+                        is the space outside of the box, surrounding its border. It specifies the size of this space.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h2>
-                    CSS Padding and Margin definition values
-                </h2>
+            <div id="types">
+                <div>
+                    <p>
+                        T
+                    </p>
+                    <p>
+                        y
+                    </p>
+                    <p>
+                        p
+                    </p>
+                    <p>
+                        e
+                    </p>
+                    <p>
+                        s
+                    </p>
+                </div>
                 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210317151556/marginpadding.png">
             </div>
-            <div>
-                <p>
-                .example1{</br>
-                    padding:<strong>80px;</strong><br>
-                    margin: <strong>20px;</strong><br>
-                }<br>
-                </p>
+            <div id="values">
+                <div>
+                    <p>
+                    .example1{</br>
+                        padding:<strong>80px;</strong><br>
+                        margin: <strong>20px;</strong><br>
+                    }<br>
+                    </p>
+                    <p>
+                        One value is used when the same quantity is applied to all four sides of the content.
+                    </p>
+                </div>
                 <img src="./1VAL.png">
-                <p>
-                    One value is used when the same quantity is applied to all four sides of the content.
-                </p>
             </div> 
             <div>
-                <p>
-                    .example2{ <br>
-                        padding:<strong> 10px 15px ;</strong> <br>
-                        margin: <strong>50px 5px;</strong> <br>
-                    }
-                </p>
+                <div>
+                    <p>
+                        .example2{ <br>
+                            padding:<strong> 10px 15px ;</strong> <br>
+                            margin: <strong>50px 5px;</strong> <br>
+                        }
+                    </p>
+                    <p>
+                        Two values are used to define both vertical (top and bottom) spacing and horizontal (left and right) spacing for padding and margin.
+                    </p>
+                </div>
                 <img src="./2VAL.png">
-                <p>
-                    Two values are used to define both vertical (top and bottom) spacing and horizontal (left and right) spacing for padding and margin.
-                </p>
             </div>
             <div>
-                <p>
-                    .example3{ <br>
-                        padding:<strong>80px 120px 100px;</strong><br>
-                        margin: <strong>2px 10px 5px;</strong><br>
-                    }
-                </p> 
+                <div>
+                    <p>
+                        .example3{ <br>
+                            padding:<strong>80px 120px 100px;</strong><br>
+                            margin: <strong>2px 10px 5px;</strong><br>
+                        }
+                    </p> 
+                    <p>
+                        We use 3 values when <strong>left and right spacing values (horizontal spacing)</strong><strong>are equal</strong> and you want to define the spacing for all 4 sides of the element.
+                    </p>
+                </div>
                 <img src="./3VAL.png">
-                <p>
-                    We use 3 values when <strong>left and right spacing values (horizontal spacing)</strong><strong>are equal</strong> and you want to define the spacing for all 4 sides of the element.
-                </p>
             </div>
             <div>
-                <p>
-                    .example4{<br>
-                        padding:<strong>80px 100px 120px 140px;</strong><br>
-                        margin: <strong>3px 10px 1px 2px;</strong><br>
-                    }
-                </p> 
+                <div>
+                    <p>
+                        .example4{<br>
+                            padding:<strong>80px 100px 120px 140px;</strong><br>
+                            margin: <strong>3px 10px 1px 2px;</strong><br>
+                        }
+                    </p> 
+                    <p>
+                        We use 4 values when we want to define a different spacing for all 4 sides.
+                    </p>
+                </div>
                 <img src="./4VAL.png">
-                <p>
-                    We use 4 values when we want to define a different spacing for all 4 sides.
-                </p>
             </div>
-            <div>
-                <h2>
-                    Purpose & Common use
-                </h2>
-                <p>
-                    Padding ensures that the content of the object doesn't touch the edges that covers it (i.e. its borders)
-                </p>
+            <div id="Functionality">
+                <div>
+                    <h2>
+                        Padding 
+                    </h2>
+                    <p>
+                        ensures that the content of the object doesn't touch the edges that covers it (i.e. its borders)
+                    </p>
+                </div>
                 <img src="https://aheadworks.com/media/Blog/shopify/Translation_6_.png">
-                <p>
-                    Margin ensures that the object is not being interfered or affected by the other objects that surround it.
-                </p>
+                <div>
+                    <h2>
+                        Margin 
+                    </h2>
+                    <p>
+                        ensures that the object is not being interfered or affected by the other objects that surround it.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h2>
-                    Behavior next to other elements: Collapsation
-                </h2>
-                <h4>
-                    Element's Padding & horizontal Margins (left and right margins) DO NOT COLLAPSE, but VERTICAL MARGINS-top and bottom margins- DO COLLAPSE.
-                </h4>
+            <div id="collapsation">
                 <img src="Collapsation.png">
-                <p>
-                    It is a phenomenon which occurs when the top or bottom margin of one element comes into contact with the top or bottom margin of another element. 
-                    Only vertical margins collapse, horizontal  margins do not. 
-                </p>
-                <p>
-                    In collapsing of two margins, <strong>the distance between the two boxes will use whichever margin value is greater.</strong>
-                    Margin collapsing also happens when an element is nested inside another element. Irrespective of contact of elements, even an element inside of another element will margin collapse with its parent if the two margins come into contact. 
-                    Prevention of margin collapsing can be done by applying padding or a border to the either of the element.
-                </p>
+                <div>
+                    <h3>
+                        Element's Padding & horizontal Margins (left and right margins) DO NOT COLLAPSE, but VERTICAL MARGINS-top and bottom margins- DO COLLAPSE.
+                    </h3>
+                </div>
+                <div></div>
+                <div>
+                    <p>
+                        It is a phenomenon which occurs when the top or bottom margin of one element comes into contact with the top or bottom margin of another element. 
+                        Only vertical margins collapse, horizontal  margins do not. 
+                    </p>
+                    <p>
+                        In collapsing of two margins, <strong>the distance between the two boxes will use whichever margin value is greater.</strong>
+                        Margin collapsing also happens when an element is nested inside another element. Irrespective of contact of elements, even an element inside of another element will margin collapse with its parent if the two margins come into contact. 
+                        Prevention of margin collapsing can be done by applying padding or a border to the either of the element.
+                    </p>
+                </div>
             </div>
-            <div>
-               <h2>
-                Effect on element's size
-               </h2> 
-               <p>
-                <strong>Margin</strong> increases the size of the object while <strong>padding</strong> has no impact on the object's size. Padding doesn't influence the width nor height of the element.
-               </p>
+            <div id="dimensions">
+                <div>
+                    <h2>
+                     Changes on size
+                    </h2> 
+                </div>
+                <div>
+                    <h3>
+                     <strong>Margin</strong>   
+                    </h3>
+                    <p>
+                        increases the size of the object
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        <strong>padding</strong>
+                    </h3>
+                    <p>
+                        has no impact on the object's size. Padding doesn't influence the width nor height of the element.
+                    </p>
+                </div>
             </div>
         </main>
     </body>
