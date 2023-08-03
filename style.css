@@ -12,22 +12,37 @@ header{
 header .subject{
     width:95%;
     letter-spacing: 5px;
+    padding: 5px 0;
 }
-header .subject h1:nth-child(1){
-    padding-bottom: 10px;
-}
+
 header .menu{
     width: 5%;
     text-align: right;
+    padding: 5px 0;
 }
 ul {
     list-style-type: none;
 }
 ul li{
-    font-size: 20px;
+    font-size: 16px;
     padding: 2px;
     font-family:  'Quicksand', sans-serif;
 }
 header .subject h1{
     font-size: 50px;
+}
+main{
+    padding: 0 50px;
+}
+#definition{
+    display:flex;
+}
+.concept p {
+    width:30%;
+}
+#definition img{
+    width:40%;
+}
+.concept p{
+    text-align: justify;
 }
