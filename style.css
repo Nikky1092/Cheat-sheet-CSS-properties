@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family:  'Quicksand', sans-serif;
+}
+header{
+  display: flex;
+  padding: 50px;
+}
+header .subject{
+    width:95%;
+    letter-spacing: 5px;
+}
+header .subject h1:nth-child(1){
+    padding-bottom: 10px;
+}
+header .menu{
+    width: 5%;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+}
+ul li{
+    font-size: 20px;
+    padding: 2px;
+    font-family:  'Quicksand', sans-serif;
+}
+header .subject h1{
+    font-size: 50px;
+}
