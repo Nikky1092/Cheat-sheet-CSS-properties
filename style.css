@@ -4,7 +4,7 @@
   font-family: 'Noticia Text', serif;
 }
 main {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpm2ulY3xfLaeU2MZzUswIuK8Tdu-O01futw&usqp=CAU");
+  background-color: lightgray;
 }
 header {
   display: flex;
@@ -49,7 +49,6 @@ header .subject h1 {
   width: 30%;
   background-color: white;
   margin: 1rem;
-  padding: 2rem;
   border-radius: 5%;
   box-sizing: border-box;
 }
@@ -58,13 +57,22 @@ header .subject h1 {
     width: 100%;
     font-size: 2rem;
     margin: 2rem 0rem 4rem;
+    color: rgb(85, 82, 82);
 }
 .concept .argument{
-    text-align: justify;
+    text-align: center;
     width: 100%;
-    font-size: 2rem; 
+    font-size: 1rem;
+    color: grey; 
 }
 #definition img {
   width: 40%;
 }
+.concept i.fa-solid{
+    color: rgb(238, 144, 55);
+    font-size: 3rem;
+    float: right;
+    padding-right: 2rem;
+}
+
 
