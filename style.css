@@ -15,7 +15,7 @@ header {
 header .subject {
   width: 90%;
   letter-spacing: 5px;
-  margin: 20px 0 10px 0;
+  margin: 2rem 0 1rem 0;
 }
 
 header .menu {
@@ -46,9 +46,10 @@ header .subject h1 {
   padding: 2rem 1rem;
 }
 .concept {
-  width: 30%;
+  width: 50%;
   background-color: white;
-  margin: 1rem;
+  padding: 0 1.5rem;
+  margin: 0 7rem;
   border-radius: 5%;
   box-sizing: border-box;
 }
@@ -56,17 +57,19 @@ header .subject h1 {
     text-align: center;
     width: 100%;
     font-size: 2rem;
-    margin: 2rem 0rem 4rem;
+    margin: 2rem 0rem 2rem;
     color: rgb(85, 82, 82);
+    padding-top: 1rem;
 }
 .concept .argument{
     text-align: center;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: grey; 
 }
 #definition img {
-  width: 40%;
+  width: 50%;
+  margin: 0 5rem;
 }
 .concept i.fa-solid{
     color: rgb(238, 144, 55);
@@ -74,5 +77,20 @@ header .subject h1 {
     float: right;
     padding-right: 2rem;
 }
+#definition h2 {
+  border: 3px solid white;
+  height: 20%;
+  padding: 1rem;
+  margin: 0 1.5rem;
+}
+#definition h2 a {
+  color: rgb(66, 71, 71);
+  text-decoration: none;
+}
+#definition h2 a:hover{
+  color: rgb(190, 94, 4);
+}
+
+
 
 
