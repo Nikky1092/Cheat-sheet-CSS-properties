@@ -43,12 +43,12 @@ header .subject h1 {
 
 #definition {
   display: flex;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
 }
 .concept {
-  width: 50%;
+  width: 30%;
   background-color: white;
-  margin: 10rem;
+  margin: 1rem;
   border-radius: 5%;
   box-sizing: border-box;
 }
@@ -56,19 +56,17 @@ header .subject h1 {
     text-align: center;
     width: 100%;
     font-size: 2rem;
-    margin: 2rem 0rem 1.5rem;
+    margin: 2rem 0rem 4rem;
     color: rgb(85, 82, 82);
 }
 .concept .argument{
     text-align: center;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: grey; 
-    padding-bottom: 1rem;
 }
 #definition img {
-  width: 50%;
-  margin: 5rem;
+  width: 40%;
 }
 .concept i.fa-solid{
     color: rgb(238, 144, 55);
