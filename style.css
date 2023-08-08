@@ -1,16 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noticia Text', serif;
+  font-family: "Noticia Text", serif;
 }
 main {
+  display: flex;
+  flex-wrap: wrap;
   background-color: lightgray;
+  width: 100%;
 }
 header {
   display: flex;
   color: white;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/146/1013/161/low-poly-orange-digital-art-shapes-wallpaper-preview.jpg");
   padding: 2rem;
+  width: 100%;
 }
 header .subject {
   width: 90%;
@@ -44,6 +48,8 @@ header .subject h1 {
 #definition {
   display: flex;
   padding: 2rem 1rem;
+  width: 100%;
+  margin: 0;
 }
 .concept {
   width: 50%;
@@ -53,44 +59,52 @@ header .subject h1 {
   border-radius: 5%;
   box-sizing: border-box;
 }
-.concept .note{
-    text-align: center;
-    width: 100%;
-    font-size: 2rem;
-    margin: 2rem 0rem 2rem;
-    color: rgb(85, 82, 82);
-    padding-top: 1rem;
+.concept .note {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  margin: 2rem 0rem 2rem;
+  color: rgb(85, 82, 82);
+  padding-top: 1rem;
 }
-.concept .argument{
-    text-align: center;
-    width: 100%;
-    font-size: 1.2rem;
-    color: grey; 
+.concept .argument {
+  text-align: center;
+  width: 100%;
+  font-size: 1.2rem;
+  color: grey;
 }
 #definition img {
   width: 50%;
   margin: 0 5rem;
 }
-.concept i.fa-solid{
-    color: rgb(238, 144, 55);
-    font-size: 3rem;
-    float: right;
-    padding-right: 2rem;
+.concept i.fa-solid {
+  color: rgb(238, 144, 55);
+  font-size: 3rem;
+  float: right;
+  padding-right: 2rem;
 }
-#definition h2 {
+#definition h2,
+#types h2 {
   border: 3px solid white;
   height: 20%;
   padding: 1rem;
   margin: 0 1.5rem;
-}
-#definition h2 a {
   color: rgb(66, 71, 71);
-  text-decoration: none;
 }
-#definition h2 a:hover{
-  color: rgb(190, 94, 4);
+#types {
+  display: flex;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+#letters {
+  display: flex;
+  font-family: "Noticia Text", serif;
+  font-size: 6rem;
+  width: 50%;
 }
 
-
-
-
+#types img {
+  width: 50%;
+  margin: 0 5rem;
+  width: 40%;
+}
