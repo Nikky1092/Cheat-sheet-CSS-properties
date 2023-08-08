@@ -73,7 +73,7 @@ header .subject h1 {
   font-size: 1.2rem;
   color: grey;
 }
-#definition img {
+#definition img{
   width: 50%;
   margin: 0 5rem;
 }
@@ -83,28 +83,53 @@ header .subject h1 {
   float: right;
   padding-right: 2rem;
 }
-#definition h2,
-#types h2 {
+#definition h2 {
   border: 3px solid white;
-  height: 20%;
+  height: 10%;
   padding: 1rem;
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 0;
   color: rgb(66, 71, 71);
 }
-#types {
+/* #types h2 {
+  border: 3px solid white;
+  height: 10%;
+  padding: 1rem;
+  margin: 0 2rem 0 1.5rem;
+  color: rgb(66, 71, 71);
+} */
+/* #types {
   display: flex;
   padding: 2rem 1rem;
   width: 100%;
+  margin-top: 2rem;
+  flex-wrap:wrap;
 }
 #letters {
   display: flex;
   font-family: "Noticia Text", serif;
   font-size: 6rem;
-  width: 50%;
-}
-
-#types img {
-  width: 50%;
-  margin: 0 5rem;
   width: 40%;
+  color: rgb(85, 82, 82);
+  height: 30%;
+  margin-top: 8rem;
+  flex-wrap: wrap;
 }
+#letters p{
+  background-color: rgb(247, 180, 80); 
+  margin:  3rem 1rem 0;
+}
+#letters p.Y,
+#letters p.E{
+  padding-top: 1rem;
+  background-color: white;
+  margin-top: 8rem;
+  padding-bottom: 5rem;
+  margin-bottom: 2rem;
+}
+#letters p.T{
+  margin-left: 2rem;
+}
+#types img {
+  width: 60%;
+  width: 40%;
+} */
