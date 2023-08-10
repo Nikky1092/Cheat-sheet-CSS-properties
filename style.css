@@ -83,21 +83,14 @@ header .subject h1 {
   float: right;
   padding-right: 2rem;
 }
-#definition h2 {
+h2.section-name {
   border: 3px solid white;
   height: 10%;
   padding: 1rem;
   margin: 0 1.5rem 0;
   color: rgb(66, 71, 71);
 }
-/* #types h2 {
-  border: 3px solid white;
-  height: 10%;
-  padding: 1rem;
-  margin: 0 2rem 0 1.5rem;
-  color: rgb(66, 71, 71);
-} */
-/* #types {
+#types {
   display: flex;
   padding: 2rem 1rem;
   width: 100%;
@@ -132,4 +125,4 @@ header .subject h1 {
 #types img {
   width: 60%;
   width: 40%;
-} */
+}
