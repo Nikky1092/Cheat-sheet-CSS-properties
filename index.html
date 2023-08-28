@@ -27,150 +27,218 @@
                         <li><a href="#section1">Definition</a></li>
                         <li><a href="#section2">Classification</a></li>
                         <li><a href="#section3">Values</a></li>
-                        <li><a href="#functionality">Functionality</a></li>
-                        <li><a href="#collapsation">Collapsation</a></li>
+                        <li><a href="#section4">Collapsation</a></li>
                         <li><a href="#dimensions">Dimensions</a></li>
                     </ul>
                 </div>
             </header>
             <!-- section definition -->
-            <div id="definition">
-                <h2 class="section-name" id="section1">Definition</h2>
-                <div class="concept">
-                    <i class="fa-solid fa-bookmark"></i>
-                    <p class="note">
-                        <strong>Padding</strong>   
-                    </p>
-                    <p class="argument">
-                        is the space between the content of a box and the border. 
-                    </p>
-                    <p class="note">
-                        <strong>Margin</strong> 
-                    </p>
-                    <p class="argument">
-                        is the space outside of the box, surrounding its border. It specifies the size of this space.
-                    </p>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                    <div class="section-name" id="section1">
+                        <h2>
+                            Definition
+                        </h2>
+                    </div>
                 </div>
-                <img src="./Image1.png">
-            </div>
-            <div id="types">
-                <h2 class="section-name" id="section2">Classification</h2>
-                <div id="letters">
-                    <p class="T">
-                        T
-                    </p>
-                    <p class="Y">
-                        y
-                    </p>
-                    <p class="P">
-                        p
-                    </p>
-                    <p class="E">
-                        e
-                    </p>
-                    <p class="S">
-                        s
-                    </p>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-word">
+                            <strong>Padding</strong>   
+                        </p>
+                        <p class="concept-description">
+                            Is the space between the content of a box and the border. It ensures that the content of the object doesn't touch the edges that covers it (i.e. its borders)
+                        </p>
+                        <p class="concept-word">
+                            <strong>Margin</strong> 
+                        </p>
+                        <p class="concept-description">
+                            Is the space outside of the box, surrounding its border. It specifies the size of this space and ensures that the object is not being interfered or affected by the other objects that surround it.
+                        </p>
+                    </div>
                 </div>
-                <img src="./Types.png">
-            </div>
-            <div id="values">
-                <h2 class="section-name" id="section3">Values</h2>
-                <div class="concept">
-                    <i class="fa-solid fa-bookmark"></i>
-                    <p class="note">
-                    .example1{</br>
-                        padding:<strong>80px;</strong><br>
-                        margin: <strong>20px;</strong><br>
-                    }<br>
-                    </p>
-                    <p class="argument">
-                        One value is used when the same quantity is applied to all four sides of the content.
-                    </p>
-                </div>
-                <img src="./1VAL.png">
-            </div> 
-            <!-- <div>
-                <div>
-                    <p>
-                        .example2{ <br>
-                            padding:<strong> 10px 15px ;</strong> <br>
-                            margin: <strong>50px 5px;</strong> <br>
-                        }
-                    </p>
-                    <p>
-                        Two values are used to define both vertical (top and bottom) spacing and horizontal (left and right) spacing for padding and margin.
-                    </p>
-                </div>
-                <img src="./2VAL.png">
-            </div>
-            <div>
-                <div>
-                    <p>
-                        .example3{ <br>
-                            padding:<strong>80px 120px 100px;</strong><br>
-                            margin: <strong>2px 10px 5px;</strong><br>
-                        }
-                    </p> 
-                    <p>
-                        We use 3 values when <strong>left and right spacing values (horizontal spacing)</strong><strong>are equal</strong> and you want to define the spacing for all 4 sides of the element.
-                    </p>
-                </div>
-                <img src="./3VAL.png">
-            </div>
-            <div>
-                <div>
-                    <p>
-                        .example4{<br>
-                            padding:<strong>80px 100px 120px 140px;</strong><br>
-                            margin: <strong>3px 10px 1px 2px;</strong><br>
-                        }
-                    </p> 
-                    <p>
-                        We use 4 values when we want to define a different spacing for all 4 sides.
-                    </p>
-                </div>
-                <img src="./4VAL.png">
-            </div>
-            <div id="functionality">
-                <div>
-                    <h2>
-                        Padding 
-                    </h2>
-                    <p>
-                        ensures that the content of the object doesn't touch the edges that covers it (i.e. its borders)
-                    </p>
-                </div>
-                <img src="https://aheadworks.com/media/Blog/shopify/Translation_6_.png">
-                <div>
-                    <h2>
-                        Margin 
-                    </h2>
-                    <p>
-                        ensures that the object is not being interfered or affected by the other objects that surround it.
-                    </p>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./Image1.png"> 
+                    </div>
                 </div>
             </div>
-            <div id="collapsation">
-                <img src="Collapsation.png">
-                <div>
-                    <h3>
-                        Element's Padding & horizontal Margins (left and right margins) DO NOT COLLAPSE, but VERTICAL MARGINS-top and bottom margins- DO COLLAPSE.
-                    </h3>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                    <div class="section-name" id="section2">
+                        <h2>
+                            Classification
+                        </h2>
+                    </div>
                 </div>
-                <div></div>
-                <div>
-                    <p>
-                        It is a phenomenon which occurs when the top or bottom margin of one element comes into contact with the top or bottom margin of another element. 
-                        Only vertical margins collapse, horizontal  margins do not. 
-                    </p>
-                    <p>
-                        In collapsing of two margins, <strong>the distance between the two boxes will use whichever margin value is greater.</strong>
+                <div class="section-letters-wrapper">
+                    <div class="section-letters">
+                        <p class="odd">
+                            T
+                        </p>
+                        <p class="even">
+                            y
+                        </p>
+                        <p class="odd">
+                            p
+                        </p>
+                        <p class="even">
+                            e
+                        </p>
+                        <p class="odd">
+                            s
+                        </p> 
+                    </div>
+                </div>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./Types.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                    <div class="section-name" id="section3">
+                        <h2>
+                            Values
+                        </h2>
+                    </div>
+                </div>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-word">
+                            <strong>.example1{</br>
+                                padding:<strong>80px;</strong><br>
+                                margin: <strong>20px;</strong><br>
+                            }<br></strong>   
+                        </p>
+                        <p class="concept-description">
+                            One value is used to apply the same spacing to all four sides of the content.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./1VAL.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                </div>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-word">
+                            <strong>.example2{ <br>
+                                padding: 10px 15px ;<br>
+                                margin: 50px 5px; <br>
+                            }</strong>   
+                        </p>
+                        <p class="concept-description">
+                            When using 2 values, the first value is used to define vertical (top and bottom) spacing and the second value is used to define horizontal (left and right) spacing for padding and margin properties.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./2VAL-draft.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                </div>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-word">
+                            <strong>.example3{ <br>
+                                padding: 80px 120px 100px; <br>
+                                margin: 2px 10px 5px; <br>
+                            }</strong>   
+                        </p>
+                        <p class="concept-description">
+                            When using 3 values, the first value is used to define the top spacing, the second value is used to define the same spacing for left and right sides of the content and the third value is used to define the bottom spacing.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./3VAL.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                </div>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-word">
+                            <strong>.example4{<br>
+                                padding: 80px 100px 120px 140px; <br>
+                                margin: 3px 10px 1px 2px; <br>
+                            }</strong>   
+                        </p>
+                        <p class="concept-description">
+                            We use 4 values when we want to define a different spacing for all 4 sides.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./4VAL.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                    <div class="section-name" id="section4">
+                        <h2>
+                            Collapsation
+                        </h2>
+                    </div>
+                </div>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-word">
+                            <strong>Padding & Horizontal Margins (left and right margins) DO NOT COLLAPSE, but VERTICAL MARGINS-top and bottom margins- DO COLLAPSE.</strong>   
+                        </p>
+                        <p class="concept-description">
+                            It is a phenomenon which occurs when the top or bottom margin of one element comes into contact with the top or bottom margin of another element. Only vertical margins collapse, horizontal  margins do not. 
+                        </p>
+                        <p class="concept-description">
+                            In collapsing of two margins, <strong>the distance between the two boxes will use whichever margin value is greater.</strong>
                         Margin collapsing also happens when an element is nested inside another element. Irrespective of contact of elements, even an element inside of another element will margin collapse with its parent if the two margins come into contact. 
                         Prevention of margin collapsing can be done by applying padding or a border to the either of the element.
-                    </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="section-img-wrapper">
+                    <div class="section-img">
+                        <img src="./Collapsation.png"> 
+                    </div>
                 </div>
             </div>
+            <div class="section-wrapper">
+                <div class="section-name-wrapper">
+                    <div class="section-name" id="section4">
+                        <h2>
+                            INfluence on Size
+                        </h2>
+                    </div>
+                </div>
+                <div class="section-concept-wrapper">
+                    <div class="section-concept">
+                        <p class="concept-description">
+                            <strong>Margin</strong> increases the size of the object. 
+                        </p>
+                        <p class="concept-description">
+                            <strong>Padding</strong>, on the other hand, doesn't influence the width nor height of the element. It has no impact on the object's size. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+         
+            <!-- <div id="definition">
             <div id="dimensions">
                 <div>
                     <h2>

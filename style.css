@@ -6,7 +6,7 @@
 main {
   display: flex;
   flex-wrap: wrap;
-  background-color: lightgray;
+  background-color: rgba(243, 217, 182, 0.973);
   width: 100%;
 }
 header {
@@ -44,8 +44,82 @@ ul {
 header .subject h1 {
   font-size: 50px;
 }
+.section-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width:100%;
+  margin: 2rem 0;
+}
+.section-name-wrapper {
+  width: 15%;
+  box-sizing: border-box;
+  margin: 0 1rem;
+}
+.section-concept-wrapper {
+  width: 35%;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  margin: 0 1rem;
+}
+.section-img-wrapper {
+  width: 40%;
+  margin: 0 1rem;
+}
+.section-letters-wrapper{
+  width: 35%;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  margin: 0 1rem;
+  position: relative;
+}
+.section-letters {
+  display: flex;
+  font-size: 4rem;
+  color: rgb(85, 82, 82);
+  position:absolute;
+  flex-wrap:wrap;
+  left: 7.5rem;
+}
+p.even {
+  background-color: white;
+  margin: 2rem 1rem 1rem;
+}
+p.odd {
+  background-color:  rgb(240, 167, 125);
+}
+.section-name{
+  width:85%;
+  color: rgb(243, 109, 32);
+  border: 0.12rem solid rgb(241, 182, 133);
+  text-align: center;
+  border-radius: 0.2rem;
+  padding: 0.1rem;
+}
+.section-concept{
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.section-img img{
+  object-fit: contain;
+  height:40%;
+  width:100%;
+}
+p.concept-word{
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(85, 82, 82);
+  padding-bottom: 0.5rem;
+}
+p.concept-description{
+  text-align: justify;
+  font-size: 1rem;
+  color: rgb(85, 82, 82);
+}
 
-#definition {
+/* #definition {
   display: flex;
   padding: 2rem 1rem;
   width: 100%;
@@ -126,3 +200,7 @@ h2.section-name {
   width: 60%;
   width: 40%;
 }
+#values {
+  display: flex;
+} */
+
